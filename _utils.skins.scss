@@ -1,0 +1,142 @@
+/*
+
+   SKINS
+   from https://github.com/mrmrs/colors - MIT License
+   - Backgrounds
+   - Colors
+   - Border colors
+   - SVG fills
+   - SVG Strokes
+
+*/
+// Overridable defaults (from your settings layer)
+$u-skins-var-aqua:  #7FDBFF !default;
+$u-skins-var-blue:  #0074D9 !default;
+$u-skins-var-navy:  #001F3F !default;
+$u-skins-var-teal:  #39CCCC !default;
+$u-skins-var-green: #2ECC40 !default;
+$u-skins-var-olive: #3D9970 !default;
+$u-skins-var-lime:  #01FF70 !default;
+
+// Warm
+
+$u-skins-var-yellow:  #FFDC00 !default;
+$u-skins-var-orange:  #FF851B !default;
+$u-skins-var-red:     #FF4136 !default;
+$u-skins-var-fuchsia: #F012BE !default;
+$u-skins-var-purple:  #B10DC9 !default;
+$u-skins-var-maroon:  #85144B !default;
+
+// Gray Scale
+
+$u-skins-var-white:  #fff !default;
+$u-skins-var-silver: #ddd !default;
+$u-skins-var-gray:   #aaa !default;
+$u-skins-var-black:  #111 !default;
+
+/* Backgrounds */
+
+.u-colors-bg-navy {    background-color: $u-skins-var-navy; }
+.u-colors-bg-blue {    background-color: $u-skins-var-blue; }
+.u-colors-bg-aqua {    background-color: $u-skins-var-aqua; }
+.u-colors-bg-teal {    background-color: $u-skins-var-teal; }
+.u-colors-bg-olive {   background-color: $u-skins-var-olive; }
+.u-colors-bg-green {   background-color: $u-skins-var-green; }
+.u-colors-bg-lime {    background-color: $u-skins-var-lime; }
+.u-colors-bg-yellow {  background-color: $u-skins-var-yellow; }
+.u-colors-bg-orange {  background-color: $u-skins-var-orange; }
+.u-colors-bg-red {     background-color: $u-skins-var-red; }
+.u-colors-bg-fuchsia { background-color: $u-skins-var-fuchsia; }
+.u-colors-bg-purple {  background-color: $u-skins-var-purple; }
+.u-colors-bg-maroon {  background-color: $u-skins-var-maroon; }
+.u-colors-bg-white {   background-color: $u-skins-var-white; }
+.u-colors-bg-gray {    background-color: $u-skins-var-gray; }
+.u-colors-bg-silver {  background-color: $u-skins-var-silver; }
+.u-colors-bg-black {   background-color: $u-skins-var-black; }
+
+
+/* Colors */
+
+.u-colors-navy {       color: $u-skins-var-navy; }
+.u-colors-blue {       color: $u-skins-var-blue; }
+.u-colors-aqua {       color: $u-skins-var-aqua; }
+.u-colors-teal {       color: $u-skins-var-teal; }
+.u-colors-olive {      color: $u-skins-var-olive; }
+.u-colors-green {      color: $u-skins-var-green; }
+.u-colors-lime {       color: $u-skins-var-lime; }
+.u-colors-yellow {     color: $u-skins-var-yellow; }
+.u-colors-orange {     color: $u-skins-var-orange; }
+.u-colors-red {        color: $u-skins-var-red; }
+.u-colors-fuchsia {    color: $u-skins-var-fuchsia; }
+.u-colors-purple {     color: $u-skins-var-purple; }
+.u-colors-maroon {     color: $u-skins-var-maroon; }
+.u-colors-white {      color: $u-skins-var-white; }
+.u-colors-silver {     color: $u-skins-var-silver; }
+.u-colors-gray {       color: $u-skins-var-gray; }
+.u-colors-black {      color: $u-skins-var-black; }
+
+
+/* Border colors
+
+   Use with another border utility that sets border-width and style
+   i.u-colors-e .u-colors-border { border-width: 1px; border-style: solid; }
+*/
+
+.u-colors-border--navy {    border-color: $u-skins-var-navy; }
+.u-colors-border--blue {    border-color: $u-skins-var-blue; }
+.u-colors-border--aqua {    border-color: $u-skins-var-aqua; }
+.u-colors-border--teal {    border-color: $u-skins-var-teal; }
+.u-colors-border--olive {   border-color: $u-skins-var-olive; }
+.u-colors-border--green {   border-color: $u-skins-var-green; }
+.u-colors-border--lime {    border-color: $u-skins-var-lime; }
+.u-colors-border--yellow {  border-color: $u-skins-var-yellow; }
+.u-colors-border--orange {  border-color: $u-skins-var-orange; }
+.u-colors-border--red {     border-color: $u-skins-var-red; }
+.u-colors-border--fuchsia { border-color: $u-skins-var-fuchsia; }
+.u-colors-border--purple {  border-color: $u-skins-var-purple; }
+.u-colors-border--maroon {  border-color: $u-skins-var-maroon; }
+.u-colors-border--white {   border-color: $u-skins-var-white; }
+.u-colors-border--gray {    border-color: $u-skins-var-gray; }
+.u-colors-border--silver {  border-color: $u-skins-var-silver; }
+.u-colors-border--black {   border-color: $u-skins-var-black; }
+
+
+/* Fills for SVG */
+
+.u-colors-fill-navy {    fill: $u-skins-var-navy; }
+.u-colors-fill-blue {    fill: $u-skins-var-blue; }
+.u-colors-fill-aqua {    fill: $u-skins-var-aqua; }
+.u-colors-fill-teal {    fill: $u-skins-var-teal; }
+.u-colors-fill-olive {   fill: $u-skins-var-olive; }
+.u-colors-fill-green {   fill: $u-skins-var-green; }
+.u-colors-fill-lime {    fill: $u-skins-var-lime; }
+.u-colors-fill-yellow {  fill: $u-skins-var-yellow; }
+.u-colors-fill-orange {  fill: $u-skins-var-orange; }
+.u-colors-fill-red {     fill: $u-skins-var-red; }
+.u-colors-fill-fuchsia { fill: $u-skins-var-fuchsia; }
+.u-colors-fill-purple {  fill: $u-skins-var-purple; }
+.u-colors-fill-maroon {  fill: $u-skins-var-maroon; }
+.u-colors-fill-white {   fill: $u-skins-var-white; }
+.u-colors-fill-gray {    fill: $u-skins-var-gray; }
+.u-colors-fill-silver {  fill: $u-skins-var-silver; }
+.u-colors-fill-black {   fill: $u-skins-var-black; }
+
+/* Strokes for SVG */
+
+.u-colors-stroke-navy {    stroke: $u-skins-var-navy; }
+.u-colors-stroke-blue {    stroke: $u-skins-var-blue; }
+.u-colors-stroke-aqua {    stroke: $u-skins-var-aqua; }
+.u-colors-stroke-teal {    stroke: $u-skins-var-teal; }
+.u-colors-stroke-olive {   stroke: $u-skins-var-olive; }
+.u-colors-stroke-green {   stroke: $u-skins-var-green; }
+.u-colors-stroke-lime {    stroke: $u-skins-var-lime; }
+.u-colors-stroke-yellow {  stroke: $u-skins-var-yellow; }
+.u-colors-stroke-orange {  stroke: $u-skins-var-orange; }
+.u-colors-stroke-red {     stroke: $u-skins-var-red; }
+.u-colors-stroke-fuchsia { stroke: $u-skins-var-fuchsia; }
+.u-colors-stroke-purple {  stroke: $u-skins-var-purple; }
+.u-colors-stroke-maroon {  stroke: $u-skins-var-maroon; }
+.u-colors-stroke-white {   stroke: $u-skins-var-white; }
+.u-colors-stroke-gray {    stroke: $u-skins-var-gray; }
+.u-colors-stroke-silver {  stroke: $u-skins-var-silver; }
+.u-colors-stroke-black {   stroke: $u-skins-var-black; }
