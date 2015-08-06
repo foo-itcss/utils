@@ -1,0 +1,27 @@
+{
+  "name": "foo-itcss-utils",
+  "version": "0.1.0",
+  "homepage": "https://github.com/foo-itcss/utils",
+  "authors": [
+    "Alessandro Miliucci <lifeisfoo@gmail.com>"
+  ],
+  "description": "Reusable utils layer for my (and your) itcss stack",
+  "main": "_utils.scss",
+  "keywords": [
+    "itcss",
+    "sass",
+    "scss",
+    "utils",
+    "layer",
+    "mixin"
+  ],
+  "license": "GPL-3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}
